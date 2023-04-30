@@ -65,7 +65,7 @@ export default function App() {
       <div key={nanoid()} className="filtered-box">
         <p className="filtered-language">{jobs}</p>
         <button onClick={() => updateFilteredJobs(jobs)} className="close-btn">
-          <img src="/images/icon-remove.svg" alt="close-button" />
+          <img src="./images/icon-remove.svg" alt="close-button" />
         </button>
       </div>
     );
@@ -92,7 +92,7 @@ export default function App() {
             media="(max-width: 960px)"
             srcSet="./images/bg-header-mobile.svg"
           />
-          <img src="./images/bg-header-desktop.svg" alt="" />
+          <img src="./images/bg-header-desktop.svg" alt="Header image" />
         </picture>
       </header>
 
